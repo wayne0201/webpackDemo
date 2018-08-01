@@ -12,6 +12,10 @@
 2. 对于大多数项目，建议本地安装。这可以使我们在引入破坏式变更(breaking change)的依赖时，更容易分别升级项目
 3. **不推荐全局安装**,这会将你项目中的`webpack`锁定到指定版本，并且在使用不同的`webpack`版本的项目中，可能会导致构建失败。
 
+## 零配置
+1. webpack 4默认不需要配置文件
+2. 默认的入口默认值为`./src/index.js`
+3. 默认的导出路径为`./dist/main.js`
 
 ## mode
 1. `webpack4`中提供的`mode`有三个值：`development`、`production`和`none`，默认值是 `production`
